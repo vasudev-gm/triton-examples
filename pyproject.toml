@@ -42,3 +42,4 @@ url = "https://download.pytorch.org/whl/cu128"
 [[tool.uv.index]]
 name = "PyPi"
 url = "https://pypi.org/simple"
+default = true
