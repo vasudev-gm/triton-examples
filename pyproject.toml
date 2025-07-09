@@ -1,7 +1,7 @@
 [project]
 name = "triton-examples"
 version = "0.1.0"
-description = "Add your description here"
+description = "Run Triton with CUDA 12.8 on Windows using multiple package indexes"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -38,4 +38,7 @@ dependencies = [
 [[tool.uv.index]]
 name = "pytorch"
 url = "https://download.pytorch.org/whl/cu128"
-default = true
+
+[[tool.uv.index]]
+name = "PyPi"
+url = "https://pypi.org/simple"
