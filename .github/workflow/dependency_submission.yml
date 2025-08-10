@@ -1,0 +1,2 @@
+- name: Install PyTorch with CUDA
+  run: pip install torch==2.7.1 --extra-index-url https://download.pytorch.org/whl/cu128
