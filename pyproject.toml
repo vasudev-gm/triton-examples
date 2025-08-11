@@ -43,3 +43,12 @@ url = "https://download.pytorch.org/whl/cu128"
 name = "PyPi"
 url = "https://pypi.org/simple"
 default = true
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["win-64"]
+
+[tool.pixi.pypi-dependencies]
+triton-examples = { path = ".", editable = true }
+
+[tool.pixi.tasks]

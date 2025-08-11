@@ -381,3 +381,6 @@ http-client.private.env.json
 
 # Built Visual Studio Code Extensions
 *.vsix
+# pixi environments
+.pixi/*
+!.pixi/config.toml
