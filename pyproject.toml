@@ -27,7 +27,7 @@ dependencies = [
     "setuptools==80.9.0",
     "six==1.17.0",
     "sympy==1.14.0",
-    "torch==2.8.0",
+    "torch==2.7.1+cu128",
     "torchaudio==2.8.0",
     "torchvision==0.22.1+cu128",
     "triton-windows==3.4.0.post20",
