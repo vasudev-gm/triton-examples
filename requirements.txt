@@ -22,7 +22,7 @@ six==1.17.0
 sympy==1.14.0
 torch==2.8.0
 torchaudio==2.8.0
-torchvision==0.22.1+cu128
+torchvision==0.23.0
 triton-windows==3.4.0.post20
 typing-extensions==4.14.1
 tzdata==2025.2
