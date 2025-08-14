@@ -5,7 +5,7 @@ description = "Run Triton with CUDA 12.8 on Windows using multiple package index
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "contourpy==1.3.2",
+    "contourpy==1.3.3",
     "cycler==0.12.1",
     "filelock==3.13.1",
     "fonttools==4.59.0",
