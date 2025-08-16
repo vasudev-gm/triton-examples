@@ -28,7 +28,7 @@ dependencies = [
     "six==1.17.0",
     "sympy==1.14.0",
     "torch==2.7.1+cu128",
-    "torchaudio==2.8.0",
+    "torchaudio==2.7.1",
     "torchvision==0.22.1+cu128",
     "triton-windows==3.4.0.post20",
     "typing-extensions==4.14.1",
@@ -38,11 +38,11 @@ dependencies = [
 [[tool.uv.index]]
 name = "pytorch"
 url = "https://download.pytorch.org/whl/cu128"
+default = true
 
 [[tool.uv.index]]
 name = "PyPi"
 url = "https://pypi.org/simple"
-default = true
 
 [tool.pixi.workspace]
 channels = ["conda-forge"]
