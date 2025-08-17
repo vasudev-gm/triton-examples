@@ -22,6 +22,7 @@ import torch
 
 import triton
 import triton.language as tl
+from datetime import datetime
 
 DEVICE = triton.runtime.driver.active.get_active_torch_device()
 
@@ -132,4 +133,5 @@ def benchmark(size, provider):
 # %%
 # We can now run the decorated function above. Pass `print_data=True` to see the performance number, `show_plots=True` to plot them, and/or
 # `save_path='/path/to/results/' to save them to disk along with raw CSV data:
-benchmark.run(print_data=True, show_plots=True)
+# manually save the plot image because for some reason it saves empty images
+benchmark.run(print_data=True, show_plots=True, save_path=f"results/{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}")
