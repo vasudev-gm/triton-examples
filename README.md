@@ -64,8 +64,10 @@ uv lock --index-strategy unsafe-best-match
 
 ```bash
 uv export --all-packages --format requirements-txt > .\requirements.txt
+```
 
 ## Sync Environment
 
 ```bash
  uv sync -U --index-strategy unsafe-best-match --all-packages
+```
