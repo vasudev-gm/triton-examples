@@ -58,7 +58,9 @@ Triton is ideal for custom deep learning layers, scientific computing, and accel
 
 ## Use Multiple Package Indexes
 
+``` bash
 uv lock --index-strategy unsafe-best-match
+```
 
 ## Export Packages to requirements.txt using uv export
 
