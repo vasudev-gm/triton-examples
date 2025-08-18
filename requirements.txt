@@ -344,8 +344,9 @@ nvidia-cudnn-cu12==9.7.1.26 ; platform_machine == 'x86_64' and sys_platform == '
 nvidia-cufft-cu12==11.3.3.41 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
     --hash=sha256:da650080ab79fcdf7a4b06aa1b460e99860646b176a43f6208099bdc17836b6a
     # via torch
-nvidia-cufile-cu12==1.13.0.11 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
-    --hash=sha256:483f434c541806936b98366f6d33caef5440572de8ddf38d453213729da3e7d4
+nvidia-cufile-cu12==1.14.1.1 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
+    --hash=sha256:8dea77590761e02cb6dd955a57cb6414c58aa3cb1b7adbf9919869a11509cf65 \
+    --hash=sha256:9552e2231792e94b1ff17bc99e958cc0e6bbbaa4a9d91fa2dbeed97716628fe6
     # via torch
 nvidia-curand-cu12==10.3.9.55 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
     --hash=sha256:8387d974240c91f6a60b761b83d4b2f9b938b7e0b9617bae0f0dafe4f5c36b86
