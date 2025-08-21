@@ -73,3 +73,9 @@ uv export --all-packages --format requirements-txt > .\requirements.txt
 ```bash
  uv sync -U --index-strategy unsafe-best-match --all-packages
 ```
+
+## Lock and Upgrade Package
+
+```bash
+uv lock --upgrade --index-strategy unsafe-best-match
+```
