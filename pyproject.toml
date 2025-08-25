@@ -18,7 +18,7 @@ dependencies = [
     "networkx==3.5",
     "numpy==2.3.2",
     "packaging==25.0",
-    "pandas==2.3.1",
+    "pandas==2.3.2",
     "pillow==11.3.0",
     "pip==25.2",
     "pyparsing==3.2.3",
