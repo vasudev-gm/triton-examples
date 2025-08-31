@@ -38,11 +38,12 @@ dependencies = [
 [[tool.uv.index]]
 name = "pytorch"
 url = "https://download.pytorch.org/whl/cu128"
-default = true
+explicit = true
 
 [[tool.uv.index]]
 name = "PyPi"
 url = "https://pypi.org/simple"
+default = true
 
 [tool.pixi.workspace]
 channels = ["conda-forge"]
