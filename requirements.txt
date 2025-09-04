@@ -326,7 +326,7 @@ nvidia-curand-cu12==10.3.9.90 ; platform_machine == 'x86_64' and sys_platform ==
     # via
     #   torch
     #   triton-examples
-nvidia-cusolver-cu12==11.7.3.90 ; platform_machine == 'x86_64' and sys_platform == 'linux'
+nvidia-cusolver-cu12==11.7.5.82 ; platform_machine == 'x86_64' and sys_platform == 'linux'
     # via
     #   torch
     #   triton-examples
