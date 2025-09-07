@@ -351,7 +351,7 @@ nvidia-cusparse-cu12==12.5.10.65 ; platform_machine == 'x86_64' and sys_platform
     #   nvidia-cusolver-cu12
     #   torch
     #   triton-examples
-nvidia-cusparselt-cu12==0.7.1 ; platform_machine == 'x86_64' and sys_platform == 'linux'
+nvidia-cusparselt-cu12==0.8.1 ; platform_machine == 'x86_64' and sys_platform == 'linux'
     # via
     #   torch
     #   triton-examples
