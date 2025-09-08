@@ -58,3 +58,11 @@ explicit = true
 name = "PyPi"
 url = "https://pypi.org/simple"
 default = true
+
+[tool.uv]
+# Resolve for Windows, but not for Linux or macOS.
+environments = ["sys_platform == 'windows' or sys_platform == 'linux' and platform_machine == 'x86_64'"]
+upgrade = true
+
+[tool.uv.pip]
+index-strategy = "unsafe-best-match"
