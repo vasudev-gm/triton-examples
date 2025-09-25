@@ -37,17 +37,17 @@ filelock==3.19.1 ; (platform_machine == 'x86_64' and sys_platform == 'linux') or
     # via
     #   torch
     #   triton-examples
-fonttools==4.59.2 ; (platform_machine == 'x86_64' and sys_platform == 'linux') or sys_platform == 'windows' \
-    --hash=sha256:1647201af10993090120da2e66e9526c4e20e88859f3e34aa05b8c24ded2a564 \
-    --hash=sha256:53c1a411b7690042535a4f0edf2120096a39a506adeb6c51484a232e59f2aa0c \
-    --hash=sha256:6235fc06bcbdb40186f483ba9d5d68f888ea68aa3c8dac347e05a7c54346fbc8 \
-    --hash=sha256:738f31f23e0339785fd67652a94bc69ea49e413dfdb14dcb8c8ff383d249464e \
-    --hash=sha256:7ff58ea1eb8fc7e05e9a949419f031890023f8785c925b44d6da17a6a7d6e85d \
-    --hash=sha256:8bd0f759020e87bb5d323e6283914d9bf4ae35a7307dafb2cbd1e379e720ad37 \
-    --hash=sha256:95807a3b5e78f2714acaa26a33bc2143005cc05c0217b322361a772e59f32b89 \
-    --hash=sha256:95922a922daa1f77cc72611747c156cfb38030ead72436a2c551d30ecef519b9 \
-    --hash=sha256:e72c0749b06113f50bcb80332364c6be83a9582d6e3db3fe0b280f996dc2ef22 \
-    --hash=sha256:fa9ecaf2dcef8941fb5719e16322345d730f4c40599bbf47c9753de40eb03882
+fonttools==4.60.0 ; (platform_machine == 'x86_64' and sys_platform == 'linux') or sys_platform == 'windows' \
+    --hash=sha256:496d26e4d14dcccdd6ada2e937e4d174d3138e3d73f5c9b6ec6eb2fd1dab4f66 \
+    --hash=sha256:4acd21e9f125a1257da59edf7a6e9bd4abd76282770715c613f1fe482409e9f9 \
+    --hash=sha256:5567bd130378f21231d3856d8f0571dcdfcd77e47832978c26dabe572d456daa \
+    --hash=sha256:8f5927f049091a0ca74d35cce7f78e8f7775c83a6901a8fbe899babcc297146a \
+    --hash=sha256:a3ef06671f862cd7da78ab105fbf8dce9da3634a8f91b3a64ed5c29c0ac6a9a8 \
+    --hash=sha256:b81c7c47d9e78106a4d70f1dbeb49150513171715e45e0d2661809f2b0e3f710 \
+    --hash=sha256:d112cae3e7ad1bb5d7f7a60365fcf6c181374648e064a8c07617b240e7c828ee \
+    --hash=sha256:d3638905d3d77ac8791127ce181f7cb434f37e4204d8b2e31b8f1e154320b41f \
+    --hash=sha256:ded432b7133ea4602fdb4731a4a7443a8e9548edad28987b99590cf6da626254 \
+    --hash=sha256:f3482d7ed7867edfcf785f77c1dffc876c4b2ddac19539c075712ff2a0703cf5
     # via
     #   matplotlib
     #   triton-examples
@@ -225,9 +225,9 @@ pip==25.2 ; (platform_machine == 'x86_64' and sys_platform == 'linux') or sys_pl
     --hash=sha256:578283f006390f85bb6282dffb876454593d637f5d1be494b5202ce4877e71f2 \
     --hash=sha256:6d67a2b4e7f14d8b31b8b52648866fa717f45a1eb70e83002f4331d07e953717
     # via triton-examples
-pyparsing==3.2.4 ; (platform_machine == 'x86_64' and sys_platform == 'linux') or sys_platform == 'windows' \
-    --hash=sha256:91d0fcde680d42cd031daf3a6ba20da3107e08a75de50da58360e7d94ab24d36 \
-    --hash=sha256:fff89494f45559d0f2ce46613b419f632bbb6afbdaed49696d322bcf98a58e99
+pyparsing==3.2.5 ; (platform_machine == 'x86_64' and sys_platform == 'linux') or sys_platform == 'windows' \
+    --hash=sha256:2df8d5b7b2802ef88e8d016a2eb9c7aeaa923529cd251ed0fe4608275d4105b6 \
+    --hash=sha256:e38a4f02064cf41fe6593d328d0512495ad1f3d8a91c4f73fc401b3079a59a5e
     # via
     #   matplotlib
     #   triton-examples
