@@ -56,16 +56,10 @@ Triton is ideal for custom deep learning layers, scientific computing, and accel
 
 ---
 
-## Use Multiple Package Indexes
-
-``` bash
-uv lock --index-strategy unsafe-best-match
-```
-
 ## Export Packages to requirements.txt using uv export
 
 ```bash
-uv export --all-packages --format requirements-txt > .\requirements.txt
+uv export --default-index https://pypi.org/simple --index https://download.pytorch.org/whl/cu129 --format requirements-txt --all-packages --index-strategy unsafe-best-match > requirements.txt
 ```
 
 ## Sync Environment
@@ -77,5 +71,5 @@ uv export --all-packages --format requirements-txt > .\requirements.txt
 ## Lock and Upgrade Package
 
 ```bash
-uv lock --upgrade --index-strategy unsafe-best-match
+uv lock --upgrade --index-strategy unsafe-best-match --index https://download.pytorch.org/whl/cu129
 ```
