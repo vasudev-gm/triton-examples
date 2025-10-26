@@ -1,6 +1,6 @@
 [project]
 name = "triton-examples"
-version = "0.2.1"
+version = "0.2.2"
 description = "Run Triton with CUDA 12.9 on Windows using multiple package indexes"
 readme = "README.md"
 requires-python = ">=3.12"
