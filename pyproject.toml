@@ -17,20 +17,6 @@ dependencies = [
     "mpmath",
     "networkx",
     "numpy",
-    "nvidia-cublas-cu12 ; platform_machine == 'x86_64' and sys_platform == 'win_amd64'",
-    "nvidia-cuda-cupti-cu12 ; platform_machine == 'x86_64' and sys_platform == 'win_amd64'",
-    "nvidia-cuda-nvrtc-cu12 ; platform_machine == 'x86_64' and sys_platform == 'win_amd64'",
-    "nvidia-cuda-runtime-cu12 ; platform_machine == 'x86_64' and sys_platform == 'win_amd64'",
-    "nvidia-cudnn-cu12 ; platform_machine == 'x86_64' and sys_platform == 'win_amd64'",
-    "nvidia-cufft-cu12 ; platform_machine == 'x86_64' and sys_platform == 'win_amd64'",
-    "nvidia-cufile-cu12 ; platform_machine == 'x86_64' and sys_platform == 'win_amd64'",
-    "nvidia-curand-cu12 ; platform_machine == 'x86_64' and sys_platform == 'win_amd64'",
-    "nvidia-cusolver-cu12 ; platform_machine == 'x86_64' and sys_platform == 'win_amd64'",
-    "nvidia-cusparse-cu12 ; platform_machine == 'x86_64' and sys_platform == 'win_amd64'",
-    "nvidia-cusparselt-cu12 ; platform_machine == 'x86_64' and sys_platform == 'win_amd64'",
-    "nvidia-nccl-cu12 ; platform_machine == 'x86_64' and sys_platform == 'win_amd64'",
-    "nvidia-nvjitlink-cu12 ; platform_machine == 'x86_64' and sys_platform == 'win_amd64'",
-    "nvidia-nvtx-cu12 ; platform_machine == 'x86_64' and sys_platform == 'win_amd64'",
     "packaging",
     "pandas",
     "pillow",
@@ -41,27 +27,25 @@ dependencies = [
     "setuptools",
     "six",
     "sympy",
-    "torch==2.8.0+cu129",
-    "torchaudio==2.8.0+cu129",
-    "torchvision==0.23.0+cu129",
+    "torch",
+    "torchaudio",
+    "torchvision",
     "triton-windows",
     "typing-extensions",
     "tzdata",
 ]
 
 [[tool.uv.index]]
-name = "pytorch"
-url = "https://download.pytorch.org/whl/cu129"
-explicit = true
-
-[[tool.uv.index]]
 name = "PyPi"
 url = "https://pypi.org/simple"
 default = true
 
+[[tool.uv.index]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
+
 [tool.uv]
-# Resolve for Windows, but not for Linux or macOS.
-environments = ["sys_platform == 'windows' or sys_platform == 'linux' and platform_machine == 'x86_64'"]
 upgrade = true
 
 [tool.uv.pip]
