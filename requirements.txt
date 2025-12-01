@@ -305,10 +305,35 @@ torch==2.8.0+cu129 ; (platform_machine == 'x86_64' and sys_platform == 'linux') 
     #   torchaudio
     #   torchvision
     #   triton-examples
-torchaudio==2.8.0+cu129 ; (platform_machine == 'x86_64' and sys_platform == 'linux') or sys_platform == 'windows' \
-    --hash=sha256:40df9011972519120f284f56e5e7d131d4250ea69653499028d1d30b353f932e \
-    --hash=sha256:475546c447c9dfab88caa10334502576e0ba5f46742e5e67ddd09094affa8d48 \
-    --hash=sha256:d7a234d0ad889c7d2986de6f759bb6d6550873bfcbbfe29529a85240d263a78b
+torchaudio==2.9.1 ; (platform_machine == 'x86_64' and sys_platform == 'linux') or sys_platform == 'windows' \
+    --hash=sha256:13ee96ea9bbbc85e198cb671273af06f010e6981d7b912d001eef6bc74e23f4f \
+    --hash=sha256:234c7a9d4d0a6ed735cd37965baa9a89ca36bdbebece8a6a5ff7727acbb43026 \
+    --hash=sha256:31ec46b718b7caa0182221bfb42e2ad223947b752a996dcdc0388c34a678c966 \
+    --hash=sha256:35c96ed1011b50eaf17948da173b09450cdc5bb7f908687571adb4a4c072c05e \
+    --hash=sha256:4533fdafba73d7bcfcb5f1225b2cc8974a290ed0fe54c44638d6f440e91b8999 \
+    --hash=sha256:5f445e896215e6f7bba497dc68aab1e6cb077ae0ab3a90095067f16df6a9bb98 \
+    --hash=sha256:69a582650279ee16ff9087f99b4234fe5d766e1bf7f0be352db5f46991854c1e \
+    --hash=sha256:6e3f5943135701168d30196e2befd46290180cdbb9ee508b167730d51f43208f \
+    --hash=sha256:742f9d24db5f1f46d8c7e29c599fe55b866d92c4a8181fcb95eab12da225ceb0 \
+    --hash=sha256:7581ef170794c599aed55918e00d0acd9e5c9a0f19400c9a9a840955180365c5 \
+    --hash=sha256:8327e21f51dced2b6de3ac6a63f04bae9be9bc213e151f85c76164568c7ebc3d \
+    --hash=sha256:923dccc67be4a6cbb45c3dcc2d69ee182bda75b09b69bc88cd3bcdfc739883a2 \
+    --hash=sha256:9290f6a6409deb1f9113d5aef97ec646eeee6410b6bcc57ab8b57066b54da7c1 \
+    --hash=sha256:9c0d004f784c49078017f8217fdc901df0eb9724e50fb269b3a6c99b1d4eae75 \
+    --hash=sha256:acffac66d0908baa4ef16ce5ce6d2a7bc10c2534fce719b146744f306ba08c4a \
+    --hash=sha256:b41339a71b186bad238d94cfb68d4c202db0033088a7b824ce5484674bf67057 \
+    --hash=sha256:ba2799ceec5e4373a0aa26df30d608f1eaaefd8ac4a7ae0c3446f63106f5b5a5 \
+    --hash=sha256:bb69557484c92513a980027ec4cb314b0f43cf4442bbfd97440e66528dbad22d \
+    --hash=sha256:bc3c8e9a240bfad8bc61f769324a4f3ce5d60eec161369d457c595c35dbb10c7 \
+    --hash=sha256:c220c4acf9914cce2dc81c3624d7c84008ef436dc31bcbb89e8f4416d3615a34 \
+    --hash=sha256:c558ba70d548f7491245ed7a35310f6310d83fc7591f073ab5fed9fd38cef987 \
+    --hash=sha256:cfd12934c7b54b41d4c79dfd26fbfe88fafa9cc5cc77c074e953bb7018d9322c \
+    --hash=sha256:d192cf3b1b677f6666dad60caf0ce7bab66965751570c694645dd905a6c61724 \
+    --hash=sha256:d2743b28ff5538d5fdf2ff6657d392852ccdfe640ede46f566b2907ca32d8dca \
+    --hash=sha256:e13cb38971ac259fc4e102282a3e48f6df5f0ab00eb785ca5155e3392d1e86f1 \
+    --hash=sha256:ee11695b367f64638b4a0340cc9abb9be2173c6537bfe4ab286c6fbff68a1444 \
+    --hash=sha256:eeae7ca60b64c4bfb78fbd104a089d072b151423d5d2f90da1da00787f03b800 \
+    --hash=sha256:fd13541197e035338bd43225b2067532056486d357c661e12d49ace4fc37f8bb
     # via triton-examples
 torchvision==0.23.0+cu129 ; (platform_machine == 'x86_64' and sys_platform == 'linux') or sys_platform == 'windows' \
     --hash=sha256:04316e24ddd1cee3b301208811a9d7c4cfca5f566ea367f33bda059d8f0e012e \
