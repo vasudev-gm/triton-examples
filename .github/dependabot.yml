@@ -1,4 +1,15 @@
 version: 2
+registries:
+  pypi:
+    type: python-index
+    url: https://pypi.org/simple
+    username: ""
+    password: ""
+  pytorch:
+    type: python-index
+    url: https://download.pytorch.org/whl/cu130
+    username: ""
+    password: ""
 updates:
   # Enable version updates for Python dependencies
   - package-ecosystem: "uv"
@@ -13,6 +24,9 @@ updates:
     commit-message:
       prefix: "deps"
       prefix-development: "deps-dev"
+    registries:
+      - pypi
+      - pytorch
 
   # Enable version updates for GitHub Actions
   - package-ecosystem: "github-actions"
