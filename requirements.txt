@@ -139,7 +139,7 @@ mpmath==1.3.0 ; (platform_machine == 'x86_64' and sys_platform == 'linux') or sy
     # via
     #   sympy
     #   triton-examples
-networkx==3.5 ; (platform_machine == 'x86_64' and sys_platform == 'linux') or sys_platform == 'windows'
+networkx==3.6 ; (platform_machine == 'x86_64' and sys_platform == 'linux') or sys_platform == 'windows'
     # via
     #   torch
     #   triton-examples
