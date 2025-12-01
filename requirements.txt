@@ -315,7 +315,7 @@ torchvision==0.23.0+cu129 ; (platform_machine == 'x86_64' and sys_platform == 'l
     --hash=sha256:6226be1b8399ef655a11965ea4975250f7823fc9b200b35deb9eeac350c667a9 \
     --hash=sha256:c718f6d2c0e61feed39763925eea3e1f42979f6b21e61276f487409168d9e352
     # via triton-examples
-triton==3.5.0 ; platform_machine == 'x86_64' and sys_platform == 'linux'
+triton==3.5.1 ; platform_machine == 'x86_64' and sys_platform == 'linux'
     # via torch
 triton-windows==3.5.0.post21 ; (platform_machine == 'x86_64' and sys_platform == 'linux') or sys_platform == 'windows'
     # via triton-examples
