@@ -1,7 +1,7 @@
 
 # Triton Introduction
 
-Triton is an open-source programming language and compiler developed by OpenAI for writing highly efficient GPU code, especially for machine learning and AI workloads. Triton enables researchers and developers to write custom GPU kernels in Python-like syntax, making GPU programming more accessible and productive. However, writing efficient GPU code can still be challenging, and Triton aims to simplify this process and I'm using CUDA 12.8 on Windows as the GPU backend to run Triton.
+Triton is an open-source programming language and compiler developed by OpenAI for writing highly efficient GPU code, especially for machine learning and AI workloads. Triton enables researchers and developers to write custom GPU kernels in Python-like syntax, making GPU programming more accessible and productive. However, writing efficient GPU code can still be challenging, and Triton aims to simplify this process and I'm using CUDA 12.9/13 on Windows as the GPU backend to run Triton.
 
 ## Key Features
 
@@ -59,17 +59,17 @@ Triton is ideal for custom deep learning layers, scientific computing, and accel
 ## Export Packages to requirements.txt using uv export
 
 ```bash
-uv export --default-index https://pypi.org/simple --index https://download.pytorch.org/whl/cu129 --format requirements-txt --all-packages --index-strategy unsafe-best-match > requirements.txt
+uv export --default-index https://pypi.org/simple --index https://download.pytorch.org/whl/cu130 --format requirements-txt --all-packages --index-strategy unsafe-best-match > requirements.txt
 ```
 
 ## Sync Environment
 
 ```bash
- uv sync -U --index-strategy unsafe-best-match --all-packages
+uv sync -U --index-strategy unsafe-best-match --all-packages --default-index https://pypi.org/simple --index https://download.pytorch.org/whl/cu130
 ```
 
 ## Lock and Upgrade Package
 
 ```bash
-uv lock --upgrade --index-strategy unsafe-best-match --index https://download.pytorch.org/whl/cu129
+uv lock --upgrade --index-strategy unsafe-best-match --default-index https://pypi.org/simple --index https://download.pytorch.org/whl/cu130
 ```
