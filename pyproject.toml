@@ -47,6 +47,8 @@ explicit = true
 
 [tool.uv]
 upgrade = true
+managed = true
+link-mode = "copy"
 
 [tool.uv.pip]
 index-strategy = "unsafe-best-match"
